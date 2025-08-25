@@ -14,6 +14,7 @@ async function updatePlayers() {
   const snapshot = await db.collection("team-1-users").get();
 
   const players = [];
+  const updateTime = new Date().toISOString();
   snapshot.forEach(doc => {
     players.push({
       id: doc.id,
@@ -21,8 +22,12 @@ async function updatePlayers() {
     });
   });
 
-  fs.writeFileSync("players.json", JSON.stringify(players, null, 2));
-  console.log("✅ players.json обновлён, игроков:", players.length);
+  const output = {
+    updateTime,
+    players
+  };
+
+  fs.writeFileSync("players.json", JSON.stringify(output, null, 2));
 }
 
 updatePlayers();

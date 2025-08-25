@@ -37,7 +37,7 @@
     }
 
     tbody tr:nth-child(even) {
-      background-color: #878787;
+      background-color: #feffd0;
       border-radius: 12px;
     }
 
@@ -64,7 +64,8 @@
   </style>
 </head>
 <body>
-  <h1>Таблица игроков</h1>
+  <h1>Таблица игроков - обновляется каждый час</h1>
+  <div id="lastUpdated" style="text-align: center; color: white; margin-bottom: 10px;"></div>
   <table id="playersTable">
     <thead>
       <tr>
@@ -82,11 +83,17 @@
   <script>
     async function loadPlayers() {
         const res = await fetch("players.json");
-        const players = await res.json();
+        const data = await res.json();
+
+        const players = data.players;
+        const updateTime = data.updateTime;
+
+        document.getElementById("lastUpdated").textContent = `Последнее обновление: ${updateTime}`;
 
         const tbody = document.querySelector("#playersTable tbody");
         tbody.innerHTML = "";
 
+        players.sort((a, b) => b.balance - a.balance)
         players.forEach(player => {
         const row = document.createElement("tr");
         row.innerHTML = `
