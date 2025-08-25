@@ -85,7 +85,7 @@
         const res = await fetch("players.json");
         const data = await res.json();
 
-        const players = data.players;
+        const players = await data.players.json();
         const updateTime = data.updateTime;
 
         document.getElementById("lastUpdated").textContent = `Последнее обновление: ${updateTime}`;
