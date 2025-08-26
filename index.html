@@ -146,23 +146,6 @@
 
   <script>
     async function loadPlayers() {
-        const roleClass = (() => {
-          switch (player.role) {
-            case "Участник":
-              return "";
-            case "Активный":
-              return "role-active";
-            case "Ветеран":
-              return "role-veteran";
-            case "Крутой":
-              return "role-cool";
-            case "Сигма":
-              return "role-sigma";
-            default:
-              return "role-custom";
-          }
-        })();
-
         const res = await fetch(`players.json?v=${Date.now()}`);
         const data = await res.json();
 
@@ -176,6 +159,22 @@
 
         players.sort((a, b) => b.balance - a.balance)
         players.forEach(player => {
+        const roleClass = (() => {
+        switch (player.role) {
+          case "Участник":
+            return "";
+          case "Активный":
+            return "role-active";
+          case "Ветеран":
+            return "role-veteran";
+          case "Крутой":
+            return "role-cool";
+          case "Сигма":
+            return "role-sigma";
+          default:
+            return "role-custom";
+        }
+        })();
         const row = document.createElement("tr");
         row.innerHTML = `
             <td><a class="player-link" href="https://lichess.org/@/${player.id}" target="_blank">${player.id}</a></td>
