@@ -62,7 +62,7 @@
       color: blue;
     }
 
-    .role-cell {
+  .role-cell {
   position: relative;
   cursor: help;
   display: inline-block;
@@ -101,6 +101,29 @@
   opacity: 1;
 }
 
+.role-active {
+  color: #7c8f00;
+  font-weight: bold;
+}
+
+.role-veteran {
+  color: #00a408;
+}
+
+.role-cool {
+  color: #006b7e;
+  font-weight: bold;
+}
+
+.role-sigma {
+  color: #000b89;
+  font-weight: bold;
+}
+
+.role-custom {
+  color: #ba0000;
+  font-weight: bold;
+}
 
   </style>
 </head>
@@ -123,6 +146,23 @@
 
   <script>
     async function loadPlayers() {
+        const roleClass = (() => {
+          switch (player.role) {
+            case "Участник":
+              return "";
+            case "Активный":
+              return "role-active";
+            case "Ветеран":
+              return "role-veteran";
+            case "Крутой":
+              return "role-cool";
+            case "Сигма":
+              return "role-sigma";
+            default:
+              return "role-custom";
+          }
+        })();
+
         const res = await fetch(`players.json?v=${Date.now()}`);
         const data = await res.json();
 
@@ -139,9 +179,9 @@
         const row = document.createElement("tr");
         row.innerHTML = `
             <td><a class="player-link" href="https://lichess.org/@/${player.id}" target="_blank">${player.id}</a></td>
-            <td class="role-cell">
-              ${player.role}
-              <div class="role-tooltip">Коэффициент: ${(player.coefficient / 100).toFixed(2)}</div>
+            <td class="role-cell ${roleClass}">
+            ${player.role}
+            <div class="role-tooltip">Коэффициент: ${(player.coefficient / 100).toFixed(2)}</div>
             </td>
             <td>${player.balance}</td>
         `;
