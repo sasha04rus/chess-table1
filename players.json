@@ -1,365 +1,449 @@
 {
-  "updateTime": "2025-08-25T22:26:16.028Z",
+  "updateTime": "26.08.2025 21:18 (МСК)",
   "players": [
     {
       "id": "blackcat888",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "candidate100",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "cb_amairab",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "chess-is-a-live",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "chess_shaxmatist2011",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "crazy_666",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "d_a_n_i_y_a_r",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "denis2854",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "dolphinkits",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "fanera1960",
-      "balance": 41,
-      "role": "Учас"
+      "balance": 30,
+      "role": "Участник",
+      "coefficient": 100
     },
     {
       "id": "gagawawa",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "gek23",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "gepard2014",
-      "role": "БоссКФС",
-      "balance": 0
+      "role": "Активный",
+      "coefficient": 120,
+      "balance": 588
     },
     {
       "id": "ggwpsabaka",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "gryffindor_hp",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "gufi4",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "hfhguj",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "human_111",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "hypermolnia",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "ilya0510",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "ilyshank",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "itsmehoney",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "ivan_chernov2013",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "ivan_meshtrovich",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "kasperschmeichel",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "kefir2011",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "kingblack01",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "kirixel",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "klara2012",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "kletochkaa_2007",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "kobushka",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "krivoy1973",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "ks_were12",
       "role": "Участник",
-      "balance": 0
+      "coefficient": 100,
+      "balance": 2
     },
     {
       "id": "lada23new",
-      "balance": 21,
-      "role": "Участн"
+      "balance": 30,
+      "role": "Участник",
+      "coefficient": 100
     },
     {
       "id": "lllaxmatbl-vernulsa",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "lllaxmatbl1",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "logika_einshteina",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "lol0s",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "lol2289",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "magasiai",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "mamaaa",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "manulchik76",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "masimagi",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "matvey_shirihanov555",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "melyz2158",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "mikrob-kill",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "nightofzero",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "nikolab123",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "one-hundred-10",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "penguin2622",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "rain_gosling07122024",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "robby2008",
+      "balance": 30,
       "role": "Участник",
-      "balance": 6
+      "coefficient": 100
     },
     {
       "id": "rok-3000",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "sandex2641",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "sasha04rus",
-      "role": "УЧАСТНИК",
-      "balance": 9996
+      "role": "Участник",
+      "coefficient": 100,
+      "balance": 169
     },
     {
       "id": "sasha_karatist",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "sayito_lazetic",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "sergofan19",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "sherwinmarvell",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "sisi5i",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "spartakmos",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "speedrunchessgames",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "sr3671",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "suresh15111982",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "tilt_dag",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "tilt_soso",
-      "balance": 76,
-      "role": "Учас"
+      "balance": 30,
+      "role": "Участник",
+      "coefficient": 100
     },
     {
       "id": "timur_chess-2012",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "twitter_kdr",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "valera2025",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "vladimirnardom",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "volchonok123",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "vriishabh",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "yaroslav-2017",
       "role": "Участник",
-      "balance": 0
+      "balance": 0,
+      "coefficient": 100
     },
     {
       "id": "yusifpanahov",
       "role": "Участник",
-      "balance": 11
+      "balance": 0,
+      "coefficient": 100
     }
   ]
 }
