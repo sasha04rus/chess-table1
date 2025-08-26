@@ -61,6 +61,31 @@
     a.player-link:hover {
       color: blue;
     }
+
+    .role-cell {
+      position: relative;
+      cursor: help;
+    }
+
+    .role-tooltip {
+      display: none;
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 4px;
+      white-space: nowrap;
+      z-index: 100;
+      margin-bottom: 5px;
+    }
+
+    .role-cell:hover .role-tooltip {
+      display: block;
+    }
+
   </style>
 </head>
 <body>
@@ -98,7 +123,10 @@
         const row = document.createElement("tr");
         row.innerHTML = `
             <td><a class="player-link" href="https://lichess.org/@/${player.id}" target="_blank">${player.id}</a></td>
-            <td>${player.role}</td>
+            <td class="role-cell">
+              ${player.role}
+              <div class="role-tooltip">Коэффициент: ${player.coefficient}</div>
+            </td>
             <td>${player.balance}</td>
         `;
         tbody.appendChild(row);
