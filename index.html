@@ -63,28 +63,44 @@
     }
 
     .role-cell {
-      position: relative;
-      cursor: help;
-    }
+  position: relative;
+  cursor: help;
+  display: inline-block;
+}
 
-    .role-tooltip {
-      display: none;
-      position: absolute;
-      bottom: 100%;
-      left: 50%;
-      transform: translateX(-50%);
-      background-color: #333;
-      color: white;
-      padding: 5px 10px;
-      border-radius: 4px;
-      white-space: nowrap;
-      z-index: 100;
-      margin-bottom: 5px;
-    }
+.role-tooltip {
+  display: none;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(50, 50, 50, 0.9);
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  white-space: nowrap;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
 
-    .role-cell:hover .role-tooltip {
-      display: block;
-    }
+.role-tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgba(50, 50, 50, 0.9) transparent transparent transparent;
+}
+
+.role-cell:hover .role-tooltip {
+  display: block;
+  opacity: 1;
+}
+
 
   </style>
 </head>
@@ -125,7 +141,7 @@
             <td><a class="player-link" href="https://lichess.org/@/${player.id}" target="_blank">${player.id}</a></td>
             <td class="role-cell">
               ${player.role}
-              <div class="role-tooltip">Коэффициент: ${player.coefficient}</div>
+              <div class="role-tooltip">Коэффициент: ${(player.coefficient / 100).toFixed(2)}</div>
             </td>
             <td>${player.balance}</td>
         `;
