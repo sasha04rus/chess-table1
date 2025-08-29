@@ -1,5 +1,5 @@
 {
-  "updateTime": "29.08.2025 12:25 (МСК)",
+  "updateTime": "29.08.2025 12:28 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
@@ -45,9 +45,9 @@
     },
     {
       "id": "sova2012",
-      "balance": 0,
       "role": "Активный",
-      "coefficient": 120
+      "coefficient": 120,
+      "balance": 10
     },
     {
       "id": "spo6009",
