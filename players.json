@@ -1,8 +1,68 @@
 {
-  "updateTime": "29.08.2025 12:14 (МСК)",
+  "updateTime": "29.08.2025 12:20 (МСК)",
   "players": [
     {
+      "id": "aleksandnegrebetskii",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "igork2016",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "lizaveta-91",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "platonknn",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "quantumpancake52",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
       "id": "sasha04rus",
+      "role": "Активный",
+      "balance": 10,
+      "coefficient": 120
+    },
+    {
+      "id": "sasha2015",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "sova2012",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "spo6009",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "weakchesszero-wc0",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "yaroslav-2017",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
