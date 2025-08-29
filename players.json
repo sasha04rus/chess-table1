@@ -1,8 +1,20 @@
 {
-  "updateTime": "29.08.2025 14:11 (МСК)",
+  "updateTime": "29.08.2025 14:18 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "artur_logvinyuk12",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "gorinko",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
@@ -15,6 +27,12 @@
     },
     {
       "id": "lizaveta-91",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "nazar_samat",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
@@ -51,6 +69,12 @@
     },
     {
       "id": "spo6009",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "tb-oficiall-account",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
