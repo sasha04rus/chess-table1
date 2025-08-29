@@ -1,5 +1,5 @@
 {
-  "updateTime": "29.08.2025 15:25 (МСК)",
+  "updateTime": "29.08.2025 16:22 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
@@ -27,6 +27,12 @@
     },
     {
       "id": "lizaveta-91",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "lynx87",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
