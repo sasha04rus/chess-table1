@@ -1,5 +1,5 @@
 {
-  "updateTime": "31.08.2025 19:14 (МСК)",
+  "updateTime": "31.08.2025 20:10 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
@@ -26,6 +26,12 @@
       "coefficient": 100
     },
     {
+      "id": "georgefs",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
       "id": "gorinko",
       "role": "Участник",
       "balance": 0,
@@ -33,6 +39,18 @@
     },
     {
       "id": "igork2016",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "ivt1977",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "kirilltkach",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
