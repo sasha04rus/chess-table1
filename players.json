@@ -1,5 +1,5 @@
 {
-  "updateTime": "31.08.2025 20:10 (МСК)",
+  "updateTime": "31.08.2025 21:16 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
@@ -87,9 +87,9 @@
     },
     {
       "id": "sasha04rus",
-      "role": "Активный",
       "balance": 10,
-      "coefficient": 120
+      "role": "Участник",
+      "coefficient": 100
     },
     {
       "id": "sasha2015",
@@ -99,9 +99,9 @@
     },
     {
       "id": "sova2012",
-      "role": "Активный",
-      "coefficient": 120,
-      "balance": 10
+      "balance": 10,
+      "role": "Участник",
+      "coefficient": 100
     },
     {
       "id": "spo6009",
