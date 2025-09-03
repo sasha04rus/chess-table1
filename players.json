@@ -1,5 +1,5 @@
 {
-  "updateTime": "03.09.2025 11:17 (МСК)",
+  "updateTime": "03.09.2025 12:14 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
@@ -63,12 +63,6 @@
     },
     {
       "id": "nazar_samat",
-      "role": "Участник",
-      "balance": 0,
-      "coefficient": 100
-    },
-    {
-      "id": "nikbel12",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
