@@ -1,11 +1,17 @@
 {
-  "updateTime": "13.09.2025 14:09 (МСК)",
+  "updateTime": "13.09.2025 15:22 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
+    },
+    {
+      "id": "anna06082015",
+      "balance": 0,
+      "coefficient": 100,
+      "role": "Участник"
     },
     {
       "id": "artur_logvinyuk12",
