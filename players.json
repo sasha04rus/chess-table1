@@ -1,5 +1,5 @@
 {
-  "updateTime": "15.09.2025 16:22 (МСК)",
+  "updateTime": "15.09.2025 17:14 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
@@ -72,6 +72,12 @@
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
+    },
+    {
+      "id": "pugach_anton_2015",
+      "role": "Участник",
+      "coefficient": 100,
+      "balance": 0
     },
     {
       "id": "quantumpancake52",
