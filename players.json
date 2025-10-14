@@ -1,5 +1,5 @@
 {
-  "updateTime": "14.10.2025 23:14 (МСК)",
+  "updateTime": "15.10.2025 00:11 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
@@ -105,6 +105,12 @@
     },
     {
       "id": "spo6009",
+      "role": "Участник",
+      "balance": 0,
+      "coefficient": 100
+    },
+    {
+      "id": "tb-oficiall-account",
       "role": "Участник",
       "balance": 0,
       "coefficient": 100
