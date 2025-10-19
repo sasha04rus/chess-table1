@@ -1,5 +1,5 @@
 {
-  "updateTime": "19.10.2025 12:12 (МСК)",
+  "updateTime": "19.10.2025 13:12 (МСК)",
   "players": [
     {
       "id": "aleksandnegrebetskii",
@@ -101,12 +101,6 @@
       "id": "sova2012",
       "balance": 10,
       "role": "Участник",
-      "coefficient": 100
-    },
-    {
-      "id": "tb-oficiall-account",
-      "role": "Участник",
-      "balance": 0,
       "coefficient": 100
     },
     {
